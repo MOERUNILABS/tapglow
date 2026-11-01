@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TapGlow 고객 지원 · Support</title>
+<style>
+  :root{
+    --bg:#FBF1E7; --surface:#FFFFFF; --line:#EBD9C6;
+    --ink:#4A3A2C; --ink-2:#7A6552; --muted:#A88E76;
+    --accent:#FF8B6B; --accent-ink:#B4482E;
+    --shadow:0 10px 34px rgba(150,110,75,.12);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#1B1712; --surface:#241E18; --line:#3A2F25;
+      --ink:#F3E9DE; --ink-2:#C8B4A0; --muted:#9C866F;
+      --accent:#FF9B7C; --accent-ink:#FFC0AB;
+      --shadow:0 10px 34px rgba(0,0,0,.45);
+    }
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;
+    line-height:1.75; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:56px 22px 80px;}
+
+  .brand{
+    display:inline-flex; align-items:center; gap:9px;
+    font-weight:800; letter-spacing:.02em; color:var(--accent-ink); font-size:15px;
+  }
+  .brand .dot{width:20px;height:20px;border-radius:7px;
+    background:linear-gradient(150deg,var(--accent),#FFC0A6);
+    box-shadow:inset 0 -3px 0 rgba(0,0,0,.08);}
+
+  h1{font-size:clamp(26px,5.5vw,34px); line-height:1.25; margin:18px 0 6px;
+    letter-spacing:-.01em; font-weight:800; text-wrap:balance;}
+  .dates{color:var(--muted); font-size:14px; margin:0 0 8px;}
+  .intro{color:var(--ink-2); font-size:16.5px; margin:20px 0 0; max-width:64ch;}
+
+  .summary{
+    margin-top:26px; background:var(--surface); border:1px solid var(--line);
+    border-radius:16px; box-shadow:var(--shadow); padding:20px 22px;
+  }
+  .summary p{margin:0; font-size:16px; color:var(--ink);}
+  .summary p + p{margin-top:12px;}
+
+  section{margin-top:34px;}
+  h2{font-size:19px; font-weight:750; letter-spacing:-.01em; margin:0 0 10px;
+    padding-bottom:8px; border-bottom:1px solid var(--line);}
+  p{margin:0 0 12px; color:var(--ink-2); font-size:16px;}
+  p b, li b{color:var(--ink); font-weight:700;}
+  ul{margin:0 0 12px; padding-left:20px; color:var(--ink-2); font-size:16px;}
+  li{margin:6px 0;}
+  a{color:var(--accent-ink); text-underline-offset:3px;}
+  a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:4px;}
+
+  .contact{
+    margin-top:10px; display:inline-flex; align-items:center; gap:8px;
+    background:var(--surface); border:1px solid var(--line);
+    border-radius:12px; padding:10px 14px; font-size:16px; color:var(--ink);
+    font-weight:600;
+  }
+
+  footer{margin-top:44px; padding-top:20px; border-top:1px solid var(--line);
+    color:var(--muted); font-size:13.5px; text-align:center;}
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand"><span class="dot"></span> TapGlow · Pocket Foundry</div>
+    <p class="dates" style="margin-top:10px"><a href="#en" lang="en">English ↓</a></p>
+    <h1>고객 지원</h1>
+    <p class="intro">TapGlow 이용 중 궁금한 점이나 문제가 있으면 이메일로 알려주세요.</p>
+    <a class="contact" href="mailto:sessionnine@hotmail.com">✉ sessionnine@hotmail.com</a>
+
+    <section>
+      <h2>자주 묻는 질문</h2>
+      <p><b>구매한 항목이 보이지 않아요.</b><br>
+        설정(⚙) → <b>구매 복원</b>을 누르세요. 같은 Apple ID로 구매한 항목이 다시 열립니다.</p>
+      <p><b>소리가 나지 않아요.</b><br>
+        설정에서 사운드가 켜져 있는지, 기기의 무음 모드와 볼륨을 확인해 주세요.</p>
+      <p><b>키가 더 늘어나려면?</b><br>
+        미션 탭에서 조건을 확인하세요. 탭 수와 연속 사용일을 채우면 키가 1개 → 2개 → 3개 → 4개로 늘어납니다.</p>
+      <p><b>환불은 어떻게 하나요?</b><br>
+        결제는 Apple이 처리합니다. <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>에서 요청할 수 있습니다.</p>
+    </section>
+
+    <div lang="en" id="en">
+    <h1 style="margin-top:72px">Support</h1>
+    <p class="intro">Questions or problems with TapGlow? Email us.</p>
+    <a class="contact" href="mailto:sessionnine@hotmail.com">✉ sessionnine@hotmail.com</a>
+
+    <section>
+      <h2>FAQ</h2>
+      <p><b>I can't see something I bought.</b><br>
+        Open Settings (⚙) → <b>Restore Purchases</b>. Items bought with the same Apple ID will unlock again.</p>
+      <p><b>There's no sound.</b><br>
+        Check that Sound is on in Settings, and check your device's silent switch and volume.</p>
+      <p><b>How do I get more keys?</b><br>
+        See the Missions tab. Reach the tap and streak goals to go from 1 key to 2, 3, and 4.</p>
+      <p><b>How do I get a refund?</b><br>
+        Payments are handled by Apple. Request a refund at <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</p>
+    </section>
+    </div>
+
+    <footer><a href="../privacy/">개인정보처리방침 · Privacy Policy</a><br>© 2026 Pocket Foundry · TapGlow</footer>
+  </main>
+</body>
+</html>
